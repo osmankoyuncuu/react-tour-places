@@ -1,0 +1,39 @@
+nav {
+  background-color: rgb(23, 27, 31);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  font-size: 1.3rem;
+  flex-wrap: wrap;
+}
+ul {
+  list-style-type: none;
+}
+ul li {
+  display: inline;
+}
+ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 1.5rem;
+}
+ul li a:hover {
+  background-color: rgb(121, 255, 255);
+  color: black;
+  border: 1px solid rgb(121, 255, 255);
+}
+@media screen and (max-width: 720px) {
+  nav {
+    flex-direction: row;
+  }
+  ul li {
+    display: block;
+    display: flex;
+    justify-content: center;
+  }
+  ul li a {
+    padding: 0.5rem;
+  }
+}

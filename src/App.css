@@ -1,0 +1,11 @@
+.container {
+  background-image: linear-gradient(rgb(121, 255, 255), white);
+  background-size: cover;
+}
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}

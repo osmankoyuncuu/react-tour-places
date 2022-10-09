@@ -6,7 +6,6 @@
   color: white;
   border-radius: 1rem;
   position: relative;
-  transition: all 2s;
   overflow: hidden;
 }
 .card h2 {
@@ -46,5 +45,27 @@
   }
   100% {
     bottom: 0.5rem;
+  }
+}
+@media screen and (max-width: 460px) {
+  .card {
+    width: 21rem;
+    height: 16.5rem;
+  }
+  .card p {
+    bottom: 0;
+    margin: 0 0 0 0.5rem;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+}
+@media screen and (min-width: 2300px) {
+  .card {
+    width: 40rem;
+    height: 35.5rem;
+  }
+  .card img {
+    width: 39rem;
+    height: 32rem;
   }
 }
